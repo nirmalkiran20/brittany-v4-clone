@@ -70,9 +70,6 @@ npm run dev
 ---
 
 🗂️ Folder Structure
-ruby
-Copy
-Edit
 .
 ├── components/          # All reusable UI components
 ├── pages/               # Next.js pages
