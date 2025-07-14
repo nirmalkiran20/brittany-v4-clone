@@ -6,7 +6,7 @@ import { FiHome } from 'react-icons/fi';
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
+    <header className="sticky top-0 z-50 bg-[#0a192f]/80 backdrop-blur-md border-b border-gray-800">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center">
         {/* ← Home / logo (clickable) */}
         <Link
