@@ -15,7 +15,7 @@ export default function Navbar() {
         >
           <FiHome size={20} />
           <span className="font-bold text-lg hidden sm:inline">
-            Kiran&nbsp;Nirmal
+            Home
           </span>
         </Link>
 
