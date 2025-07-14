@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Navbar  from '../components/Navbar';
 import Socials from '../components/Socials';
 import Email   from '../components/Email';
+import Contact from '../components/Contact';
 import Footer  from '../components/Footer';
 
 const photos = [
@@ -53,6 +54,8 @@ export default function Photos() {
           ))}
         </div>
       </main>
+      {/* global contact section */}
+      <Contact /> 
 
       <Footer />
     </>
