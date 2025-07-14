@@ -22,17 +22,17 @@ export default function Navbar() {
         {/* → Nav links (right‑aligned) */}
         <ul className="ml-auto flex space-x-6 text-sm text-slate-400 font-medium">
           <li>
-            <Link href="#about" className="hover:text-teal-400 transition">
+            <Link href="/#about" className="hover:text-teal-400 transition">
               About
             </Link>
           </li>
           <li>
-            <Link href="#experience"     className="hover:text-teal-400 transition">
+            <Link href="/#experience"     className="hover:text-teal-400 transition">
             Experience
             </Link>
             </li>
           <li>
-            <Link href="#projects" className="hover:text-teal-400 transition">
+            <Link href="/#projects" className="hover:text-teal-400 transition">
               Projects
             </Link>
           </li>
@@ -42,7 +42,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="hover:text-teal-400 transition">
+            <Link href="#/contact" className="hover:text-teal-400 transition">
               Contact
             </Link>
           </li>
