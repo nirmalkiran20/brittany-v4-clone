@@ -27,6 +27,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link href="#experience"     className="hover:text-teal-400 transition">
+            Experience
+            </Link>
+            </li>
+          <li>
             <Link href="#projects" className="hover:text-teal-400 transition">
               Projects
             </Link>
