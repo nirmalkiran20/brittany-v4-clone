@@ -1,6 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
+import Navbar  from '../components/Navbar';
+import Socials from '../components/Socials';
+import Email   from '../components/Email';
+import Footer  from '../components/Footer';
+
 const photos = [
   '/images/photos/photo1.png',
   '/images/photos/photo2.png',
@@ -15,7 +20,13 @@ export default function Photos() {
     <>
       <Head>
         <title>Photos</title>
+        <meta name="description" content="Captured moments by Kiran Nirmal" />
       </Head>
+
+      {/* shared chrome */}
+      <Navbar />
+      <Socials />
+      <Email />
 
       <main className="bg-[#0a192f] min-h-screen px-6 sm:px-12 md:px-24 lg:px-40 py-24 text-white">
         <h1 className="text-teal-400 text-lg font-mono mb-2">Photos</h1>
@@ -23,6 +34,7 @@ export default function Photos() {
           Captured Moments
         </h2>
 
+        {/* grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {photos.map((src, i) => (
             <div
@@ -41,6 +53,8 @@ export default function Photos() {
           ))}
         </div>
       </main>
+
+      <Footer />
     </>
   );
 }
